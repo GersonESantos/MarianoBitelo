@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+  int *aponta;
+  int valor1, valor2;
+  valor1 = 5;          
+  aponta = &valor1;    
+                       
+  valor2 = *aponta;
+
+  printf("Valor1: [%i] ", valor1);
+  printf("\nConteudo da variavel ponteiro: [%p]", aponta); 
+  printf("\nEndereço de memoria da variavel valor1: [%p]", &valor1); 
+  printf("\nConteudo da Variavel valor 2 [%i]", valor2);
+  
+
+  return 0;
+  
+}
